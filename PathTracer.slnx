@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="PathTracer.vcxproj" />
+  <Project Path="PathTracer.vcxproj" Id="9f1f3491-298f-4480-a975-15945b7eaaba" />
 </Solution>
