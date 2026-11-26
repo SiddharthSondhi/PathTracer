@@ -149,7 +149,10 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\HittableList.cpp" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Ray.cpp" />
+    <ClCompile Include="src\Shpere.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
@@ -159,6 +162,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\Color.h" />
+    <ClInclude Include="include\Hittable.h" />
+    <ClInclude Include="include\HittableList.h" />
+    <ClInclude Include="include\Ray.h" />
+    <ClInclude Include="include\Sphere.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
